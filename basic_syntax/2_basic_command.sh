@@ -57,3 +57,13 @@ git stash pop
 # 임시 저장된 사항 목록 확인
 git stash list
 
+# 임시 저장된 사항 삭제
+git stash clear
+
+# tag 관련 명령어
+# 가장 최신의 commit에 tag가 명시
+git tag 태그버전명
+# tag release : 코드의 commit, push와 상관없이 별개로 작업 진행 
+git push origin 태그버전명
+# 태그 목록 조회
+git tag 
