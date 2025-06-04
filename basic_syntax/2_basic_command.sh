@@ -67,3 +67,9 @@ git tag 태그버전명
 git push origin 태그버전명
 # 태그 목록 조회
 git tag 
+
+# 브랜치 생성
+# 현재 checkout되어 있는 브랜치를 기준으로 새로운 브랜치 생성 => 중요!!!!!
+git branch 브랜치명
+
+# 새로운 작업 시작 시에, main을 최신화 한 후에 main을 기준으로 branch 생성성
