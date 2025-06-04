@@ -27,4 +27,16 @@ git checkout 커밋ID
 # 특정 checkout 전환
 git checkout 브랜치명
 
-# 
+# pull은 원격 변경 사항을 local로 내려받는 것(fetch + merge)
+git pull origin 브랜치명
+
+# fetch는 변경 사항을 local 가져오되, 병합(merge)은 하지 않는 것
+git fetch origin 브랜피명
+
+# 만약 모든 브랜치의 변경 사항을 가져오려면
+git fetch --all
+
+# 버전별(commit 간) 비교 명령어
+git diff A B
+git diff commitID1 commitID2
+git diff branch1 branch2
