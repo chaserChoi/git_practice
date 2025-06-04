@@ -48,3 +48,12 @@ git reset head^
 # 이미 push된 commit 되돌리는(완전한 취소X) commitID 생성
 git revert 커밋ID
 
+# 작업 중인 사항을 임시 저장
+git stash
+
+# 임시 저장된 사항 다시 불러오기
+git stash pop
+
+# 임시 저장된 사항 목록 확인
+git stash list
+
